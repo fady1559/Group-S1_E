@@ -1,0 +1,114 @@
+body{
+    margin: 10px;
+    
+
+
+}
+
+h1 {
+    
+    margin: auto ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    border-style: inset ;
+    border-width: 20px;
+    border-color: brown;
+    height: 50px;
+    width: 500px;
+    
+   
+    
+
+}
+.container{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 40%;
+    border: 3px;
+    border-radius: 4px;
+    padding: 2px;
+}
+.firstrow{
+    padding: 2px;
+    margin: auto;
+    
+
+}
+.secondrow{
+    padding: 2px;
+    margin: auto;
+
+    
+
+}
+.thirdrow, .fourrow, .fiverow, .sixrow{
+    padding: 2px;
+    margin: auto;
+}
+.fr{
+    color:black;
+    text-align: right;
+    background-color: gray;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 98%;
+    margin:auto;
+    cursor: pointer;
+
+}
+
+
+.ac{
+    background-color: gray;
+    border: 2px solid;
+    width: 24%;
+    height: 25px;
+
+}
+.plus{
+    background-color: gray;
+    border: 2px solid;
+    width: 24%;
+    height: 25px;
+
+}
+.divide1{
+    background-color: gray;
+    border: 2px solid;
+    width: 24%;
+    height: 25px;
+
+}
+.divide2{
+    background-color: rgba(255, 166, 0, 0.815);
+    border: 2px solid;
+    width: 24%;
+    height: 26px;
+
+}
+.seven , .eight , .nine , .four , .five , .six , .one , .two , .three , .zero , .dot , .equal  {
+    color: white;
+    background-color: black;
+    border: 2px black;
+    width: 24%;
+    height: 22px;
+
+} 
+.time, .minus, .plus1 {
+    background-color: rgba(255, 166, 0, 0.815);
+    border: 2px black;
+    width: 24%;
+    height: 22px;
+
+}
+.space{
+    background-color: black;
+    color: black;
+    border: 2px black;
+    width: 24%;
+    height: 22px;
+
+}
