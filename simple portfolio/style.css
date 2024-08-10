@@ -1,0 +1,177 @@
+:root{
+    --primary-color: #000000 ;
+    --secondary-color: #1abc9c ;
+    --min-size: font-family : 'lato' , sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    font-family: var(--min-size);
+    color: aliceblue;
+}
+
+.navbar{
+    background-color: rgb(31, 29, 29);
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+.navbar .navbar-container{
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.navbar .navbar-container .navbar-items ul li {
+    font-size: 1.8rem;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar .navbar-container .navbar-brand a{
+    font-size: 1.8rem;
+    transition: color 2s ease-in-out;
+}
+
+.navbar .navbar-container .navbar-brand a:hover{
+    color:#4d0909;
+    padding: 3px;
+    background-color:aliceblue;
+    border-radius: 5px;
+}
+
+.navbar .navbar-container .navbar-items ul li a{
+
+    font-style: unset;
+    transition: color 1.3s ease-in;
+}
+
+.navbar .navbar-container .navbar-items ul li a:hover{
+    background-color: #4d0909;
+    padding: 5px;
+    border: 20px;
+    border-radius: 10px;
+
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.showcase{
+    background-image:url(../simple\ portfolio//images/abstract-1891289_1280.jpg) ;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.showcase h2{
+    font-size: 3rem;
+}
+
+.showcase hr, 
+.about hr,
+.skills hr,
+.social hr{
+    width: 30%;
+    margin: 16px auto;
+    border: 2px solid #2C3539;
+    background-color: #2C3539;
+
+}
+
+.showcase p{
+    font-size: 1.8rem;
+    width: 60%;
+    margin: 5px auto;
+
+}
+
+.showcase button,
+.about button,
+.social button
+{
+    padding: 14px;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: all 1.6s ease-in;
+
+}
+
+.showcase button:hover,
+.about button:hover,
+.social button:hover{
+    color: white;
+    background-color: #2C3539;
+    border: none;
+}
+
+section{
+    text-align: center;
+    background-color: #3f0606;
+}
+
+.skills .container .box-container {
+   display: flex;
+
+  
+}
+
+.skills .container .box-container .box .icon{
+    font-size: 40px;
+    color: rgb(150, 172, 194);
+
+}
+
+
+.skills .container .box-container .box{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.social .container .box-container1{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: #000000;
+    justify-content: space-between;
+
+}
+
+.social .container .box-container1 .box .icon a{
+    color: #000000;
+}
+.about .container table, tr, th  {
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    border: 3px solid black;
+    font-size: 1.2rem;
+    
+
+}
